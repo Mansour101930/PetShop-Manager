@@ -1,7 +1,7 @@
 public class Pet {
-    String name;
-    String type;
-    double price;
+   private String name;
+    private String type;
+   private double price;
 
     public Pet(String name, String type, double price) {
         this.name = name;
