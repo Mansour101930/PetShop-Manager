@@ -8,5 +8,7 @@ public class Main {
         shop.addPet(new Pet("Coco", "Bird", 800));
 
         shop.showAllPets();
+ 
+shop.searchPet("Luna");
     }
 }
