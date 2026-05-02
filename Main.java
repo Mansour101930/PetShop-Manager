@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Welcome to PetShop Manager!");
+        Pet pet1 = new Pet("Luna", "Cat", 1500);
+
+        pet1.displayPet();
     }
 }
