@@ -13,4 +13,15 @@ public class PetShop {
             System.out.println("----------------");
         }
     }
+public void searchPet(String petName) {
+    for (Pet pet : pets) {
+        if (pet.name.equalsIgnoreCase(petName)) {
+            System.out.println("Pet Found:");
+            pet.displayPet();
+            return;
+        }
+    }
+    System.out.println("Pet not found.");
 }
+}
+
